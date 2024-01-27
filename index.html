@@ -79,16 +79,16 @@
         <div class="row justify-content-center pt-5">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="container">
-                <div class="row ">
-                    <div class="col-md-4 col-sm-6 mb-4"><div class="single-logo"><img src="imgs/images/client-img/logo1.webp"></div></div>
-                    <div class="col-md-4 col-sm-6 mb-4"><div class="single-logo"><img src="imgs/images/client-img/logo2.webp"></div></div>
-                    <div class="col-md-4 col-sm-6 mb-4"><div class="single-logo"><img src="imgs/images/client-img/logo3.webp"></div></div>
-                    <div class="col-md-4 col-sm-6 mb-4 pt-4"><div class="single-logo"><img src="imgs/images/client-img/logo4.webp"></div></div>
-                    <div class="col-md-4 col-sm-6 mb-4 pt-4"><div class="single-logo"><img src="imgs/images/client-img/logo5.webp"></div></div>
-                    <div class="col-md-4 col-sm-6 mb-4 pt-4"><div class="single-logo"><img src="imgs/images/client-img/logo6.webp"></div></div>
-                    <div class="col-md-4 col-sm-6 mb-4 pt-4"><div class="single-logo"><img src="imgs/images/client-img/logo7.webp"></div></div>
-                    <div class="col-md-4 col-sm-6 mb-4 pt-4"><div class="single-logo"><img src="imgs/images/client-img/logo8.webp"></div></div>
-                    <div class="col-md-4 col-sm-6 mb-4 pt-4"><div class="single-logo"><img src="imgs/images/client-img/logo9.webp"></div></div>
+                <div class="row languages">
+                    <div class="col-md-4 col-sm-6 mb-4"><div class="single-logo"><img class="img-fluid" src="imgs/html.png"></div></div>
+                    <div class="col-md-4 col-sm-6 mb-4"><div class="single-logo"><img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"></div></div>
+                    <div class="col-md-4 col-sm-6 mb-4"><div class="single-logo"><img src="https://miro.medium.com/v2/resize:fit:500/1*wXhdUKkpJUQZ-kqtBWCwWA.png"></div></div>
+                    <div class="col-md-4 col-sm-6 mb-4 pt-4"><div class="single-logo"><img src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Logo.png"></div></div>
+                    <div class="col-md-4 col-sm-6 mb-4 pt-4"><div class="single-logo"><img src="https://e2ehiring-cms-assets.s3.ap-south-1.amazonaws.com/dom_img_46f7da9a93.png"></div></div>
+                    <div class="col-md-4 col-sm-6 mb-4 pt-4"><div class="single-logo"><img src="https://www.valuecoders.com/blog/wp-content/uploads/2016/08/react.png"></div></div>
+                    <div class="col-md-4 col-sm-6 mb-4 pt-4"><div class="single-logo"><img src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png"></div></div>
+                    <div class="col-md-4 col-sm-6 mb-4 pt-4"><div class="single-logo"><img src="https://i.pcmag.com/imagery/roundups/01b4GWdIDy2hlLfEmihhSbv-1.fit_lim.size_850x490.v1678307759.jpg"></div></div>
+                    <div class="col-md-4 col-sm-6 mb-4 pt-4"><div class="single-logo"><img src="https://www.drupal.org/files/project-images/screenshot_361.png"></div></div>
 
                 </div>
                 </div>
@@ -205,11 +205,13 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <a href="">
-                        <img class="img-fluid"  src="https://bmmagazine.co.uk/wp-content/uploads/2023/09/shutterstock_2286327737-scaled.jpg">
-                    </a>
+                    <button id="AmezonBtn" style="border: none;">
+                        <a>
+                            <img class="img-fluid"  src="https://bmmagazine.co.uk/wp-content/uploads/2023/09/shutterstock_2286327737-scaled.jpg">
+                        </a>
+                    </button>
                     <div class="card-body">
-                        <h1 style="font-size: 24px;">Amezon site</h1>
+                        <h1 style="font-size: 24px;" id="mk">Amezon site</h1>
                     </div>
                 </div>
             </div>
@@ -273,11 +275,13 @@
         <div class="pt-5 mx-auto col-10 col-md-8 col-lg-6 text-center">
             <br><br>
             <h1>GET UPDATE FROM ANYWHERE</h1><br>
-            <form class="form-group">
+            <form class="form-group" method="post" id="post" onsubmit="return Click()">
                 <div class="col-sm-12 col-lg-12">
-                <input type="email" class="form-control" placeholder="Email Address"></div><br>
-                <div class="col col-12">
-                <button class="btn btn-light">GET STARTED</button></div>
+                    <input type="email" id="inputText" class="form-control" placeholder="Email Address">
+                 </div><br>
+                 <div class="col col-12">
+                    <input type="submit" class="btn btn-light" value="GET STARTED">
+                 </div>
             </form>
         </div>
         </div>

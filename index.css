@@ -136,6 +136,10 @@
  box-shadow: none;
  transition: all .4s ease 0s;
 }
+.single-logo img{
+    height: 100%;
+    width: 80%;
+}
 .single-logo:hover{
  border: 0.0625rem solid transparent;
  box-shadow: 0 0.5rem 1.875rem rgb(118 85 225 / 15%);
@@ -265,6 +269,7 @@
      right: 26%;
  }
 
+
 }
 .contact{
  height: 400px;
@@ -285,6 +290,13 @@
  .cont{
      position: relative;
      top: 600px;
+ }
+ .single-logo img{
+    height: 50%;
+    width: 25%;
+ }
+ .languages{
+    margin-top: 20%;
  }
 }
 
